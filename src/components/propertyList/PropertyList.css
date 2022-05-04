@@ -1,0 +1,21 @@
+.propertyWrapper{
+    display: flex;
+    gap:10px;
+    width: 100%;
+}
+.property{
+    flex: 1;
+}
+.property>img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.property>p{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.property>span{
+    color:gray;
+}

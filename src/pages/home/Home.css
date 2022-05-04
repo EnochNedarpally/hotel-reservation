@@ -1,0 +1,7 @@
+.homeContainer{
+    background-color: var(--bgColor);
+}
+.homeWrapper{
+    max-width: 1024px;
+    margin: auto;
+}

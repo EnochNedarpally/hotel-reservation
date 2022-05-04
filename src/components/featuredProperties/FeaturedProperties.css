@@ -1,0 +1,32 @@
+.fpContainer{
+    margin-bottom: 1rem;
+}
+.fpWrapper{
+    display: flex;
+    gap: 1rem;
+}
+
+.fpList{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    gap: 10px;
+}
+.fpImg{
+    width:100%;
+    border-radius: 5px;
+}
+.fpName{
+    font-weight: 500;
+}
+.fpCity{
+    color: gray;
+}
+.fpPrice{
+    font-weight: 500;
+}
+.fpRating>button{
+    background: var(--bgColor);
+    margin-right: 1rem;
+}

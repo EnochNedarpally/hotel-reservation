@@ -1,0 +1,86 @@
+.siContainer{
+    display: flex;
+    gap: 10px;
+    padding: 0.6rem;
+    border:1px solid gray;
+    border-radius: 2px  ;
+    margin-bottom: 1rem;
+}
+.siLeft{
+    flex: 1;
+}
+.siLeft>img{
+    width:100%;
+    height:100%;
+}   
+.siCenter{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap:0.4rem;
+}
+.siCenter>h3{
+    color:#0071c2;
+    margin: 0;
+}
+.siDistance{
+    font-size: 12px;
+}
+.siTaxiOp{
+    font-size: 12px;
+    color: white;
+    background-color: #008009;
+    padding: 0.3rem;
+    border-radius: 3px;
+    width: max-content;
+}
+.siSubtitle{
+    font-size: 12px;
+    font-weight: bold;
+}
+.siFeatures{
+    font-size: 12px;
+}
+.siCancelOp{
+    font-size: 12px;
+    color:#008009;
+    font-weight: bold;
+}
+.siCancelOpSubtitle{
+    font-size: 12px;
+    color:#008009;
+}
+.siRight{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.reviewTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.reviewTop>p{
+    margin: 0;
+    font-weight: 500;
+}
+.reviewTop>button{
+    background-color: var(--bgColor);
+}
+.reviewBottom{
+    text-align: right;
+}
+.reviewBottom>h3{
+    font-weight: 400;
+    margin: 0;
+}
+.reviewBottom>span{
+    color: gray;
+    font-size: 12px;
+    margin:8px 0
+}
+.reviewBottom>button{
+    width:100%;
+    
+}

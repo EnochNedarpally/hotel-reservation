@@ -1,0 +1,49 @@
+.searchHotelContainer{
+    display: flex;
+    gap: 2rem;
+    
+}
+.searchLeft{
+    flex:1;
+    background: #febb02;
+    width: max-content;
+    height: max-content;
+    padding: 1rem 0.5rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    position: sticky;
+    top:2rem;
+}
+.searchLeft>h2{
+    color: gray;
+}
+.searchLeft>p{
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+    font-weight: 400;
+}
+.searchLeft>input{
+    padding: 0.6rem 0.3rem;
+    outline: none;
+}
+.searchRight{
+    flex:3
+}
+.sOptionItems{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.sOptionItem{
+    display: flex;
+    justify-content: space-between;
+}
+.sOptionItem>span{
+    font-size: 12px;
+}
+.sOptionItem>input{
+    width: 2.5rem;
+}

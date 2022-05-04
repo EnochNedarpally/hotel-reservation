@@ -1,0 +1,23 @@
+.navbarContainer{
+    background:var(--bgColor);
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1024px;
+    margin: auto    ;
+}
+
+.navLogo{
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.navButton{
+    margin-left: 10px;
+    border: none;
+    background-color: white;
+    color:var(--bgColor);
+    padding:6px 10px;
+    cursor: pointer;
+    border-radius: 2rafpx;
+}

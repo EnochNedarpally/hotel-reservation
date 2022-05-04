@@ -1,0 +1,82 @@
+.headContainer{
+    color:white;
+    max-width:1024px;
+    margin: auto;
+    padding-bottom:4rem;
+    position:relative;
+}
+.headType{
+    padding-bottom:1rem;
+}
+.headItems{
+    display: flex;
+    gap: 2rem;
+    position: sticky;
+    top:0;
+    left:0;
+    z-index: 11111;
+}
+
+.headItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding:1rem 0.4rem;
+    cursor: pointer;
+}
+
+ button{
+    background: #0071c2;
+    color: white;
+    padding: 0.4rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+.searchContainer{
+    border:3px solid #febb02;
+    display: flex;
+    gap: 0.6rem;
+    position: absolute;
+    bottom:-10%;
+    color:lightgray;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 0.8rem;
+    max-width: 1024px;
+    box-sizing: border-box;
+}
+.searchInputs input{
+    border: none;
+    outline:none;
+    margin-left: 0.5rem;
+}
+
+.dateRange{
+    position: absolute;
+    z-index: 10;
+}
+.headerSearchText{
+    margin-left: 0.5rem;
+}
+.selectOption{
+    position: absolute;
+    top:70%;
+    background: #0071c2;
+    padding: 1rem;
+    z-index: 10;
+}
+
+.option{
+    display: flex;
+    gap: 7px;
+    justify-content: center;
+    align-items: center;
+}
+.option > button{
+    background: #febb02;
+    padding: 0 0.4rem;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
